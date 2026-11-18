@@ -1,0 +1,7 @@
+Source: https://zenodo.org/records/3715864
+
+Have stripped the Spanish language files out of the dataset to avoid confusion.
+Documents in three classes: 13-17, 23-27, 33-47.
+Includes documents from authors posing as minors for adversarial training.
+
+Added the actual dataset to gitignore because it is very big.

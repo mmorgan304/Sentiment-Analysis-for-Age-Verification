@@ -1,0 +1,26 @@
+Blog posts circa 2002-2006. Explicitly labeled with users' ages, betweeen 13-48.
+Import this into a pandas project, because the actual file is 800 MB.
+Source: Kaggle.com: https://www.kaggle.com/datasets/dsrivastava2020/blogtextcsv?resource=download&select=blogtext.csv
+
+
+to import:
+# Install dependencies as needed:
+# pip install kagglehub[pandas-datasets]
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
+
+# Set the path to the file you'd like to load
+file_path = ""
+
+# Load the latest version
+df = kagglehub.load_dataset(
+  KaggleDatasetAdapter.PANDAS,
+  "dsrivastava2020/blogtextcsv",
+  file_path,
+  # Provide any additional arguments like 
+  # sql_query or pandas_kwargs. See the 
+  # documenation for more information:
+  # https://github.com/Kaggle/kagglehub/blob/main/README.md#kaggledatasetadapterpandas
+)
+
+print("First 5 records:", df.head())

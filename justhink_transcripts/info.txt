@@ -1,0 +1,4 @@
+Source: https://github.com/chili-epfl/justhink-dialogue-and-actions-corpus/tree/main
+
+The JUSThink dataset includes dialogue transcripts of children aged 9-12, as teams of two solved a problem on graphs together.
+Children were aged 9-12.
